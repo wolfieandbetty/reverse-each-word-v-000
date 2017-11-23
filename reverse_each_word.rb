@@ -1,5 +1,5 @@
 def reverse_each_word (sentence)
-  ss=sentence.split(",")
+  ss=sentence.split(" ")
   res_sentence=[]
 
   ss.each do |word|
