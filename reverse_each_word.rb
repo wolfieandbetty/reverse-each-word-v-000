@@ -1,3 +1,9 @@
 def reverse_each_word (sentence)
-  newsentence=sentence.split
+  ss=sentence.split
+  res_sentence=[]
+
+  ss.each do |word|
+    res_sentence=<<"(#{word}.reverse) "
+  end
+  res_sentence
 end
