@@ -3,7 +3,7 @@ def reverse_each_word (sentence)
   res_sentence=[]
 
   ss.each do |word|
-    res_sentence=<<"(#{word}.reverse) "
+    res_sentence<<word.reverse
   end
   res_sentence
 end
